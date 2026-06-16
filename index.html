@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment 1</title>
+
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
     <!-- this header shows my name as the main heading of the website. -->
      <header>
-        <h1>Tianhao Fan</h1>
+        <h1 class="site-title">Tianhao Fan</h1>
      </header>
 
        <!-- this navigation section allows users to move between pages. -->
@@ -17,12 +19,13 @@
                <li><a href="index.html">Home</a></li>
                <li><a href="notes.html">Notes</a></li>
          </ul>
+      </nav>
     
-      <main>
+<main>
          <!-- this image is about me and also includes my friend. -->
-            <img src="images/about me.jpg" alt="a picture of me and my friend"
-             width="300" height="auto">
-      </main>
+            <img id="my-image" src="images/about-me.jpg" alt="a picture of me and my friend"
+             width="300" >
+</main>
      <!-- this article contains my personal introduction -->  
      <article>
         <h2>About me</h2>
@@ -54,7 +57,7 @@
 
          <!-- This list contains some of my hobbies. -->
           <h2>My hobbies</h2>
-          <ul>
+          <ul class="hobbies">
             <li>Playing soccer</li>
             <li>playing video games</li>
             <li>Listening to music</li>
@@ -70,7 +73,8 @@
 
  <!-- This footer contains copyright information for this webpage.-->
  <footer>
-    <p>&copy 2026 Tianhao Fan</p>
+    <p>&copy; 2026 Tianhao Fan</p>
  </footer>
+
 </body>
 </html>

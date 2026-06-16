@@ -1,0 +1,61 @@
+/* this code changes background color, font, and font size */
+body{
+    background-color: aquamarine;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* this code makes header and footer have the same background colour */
+header, footer{
+    background-color: lightgray;
+}
+
+/* this code styles the main title of the website */
+.site-title{
+    color: rgb(47, 200, 235);
+}
+
+/* this code adds a shadow around my image*/
+#my-image{
+    box-shadow: 0 0 1px 2px black;
+}
+
+/* this code changes hobby bullets to squares */
+.hobbies{
+    list-style: square;
+}
+
+/* this code removes bullets from nav */
+nav ul{
+    list-style: none;
+}
+
+/* I used this code to make my navigation menu look cleaner and more
+professional. The links are displayed as buttons with a background
+colour, border, spacing, and centered text. I also removed the default
+underline from the links. */
+nav a{
+    text-decoration: none;
+    
+    background-color: rgb(3, 139, 139);
+    
+    border: 1px solid #0ddc3a;
+
+    padding: 8px 15px;
+
+    display: inline-block;
+
+    margin-right: 10px;
+    
+    width: 80px;
+    
+    text-align: center;
+
+    color: rgb(204, 255, 49);
+}
+
+/* This changes the button colour when the mouse is over it */
+nav a:hover{
+    background-color: rgb(165, 15, 108);
+}
